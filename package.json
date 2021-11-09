@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon hello-graphql-yoga/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "subscriptions-hello": "node subscriptions/hello/index.js"
   },
   "repository": {
     "type": "git",
