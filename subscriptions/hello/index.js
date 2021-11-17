@@ -20,7 +20,7 @@ const resolvers = {
     hello: () => `Hello`,
   },
   Counter: {
-    countStr: counter => `Current count: ${counter.count}`,
+    countStr: (parent, args, context) => `Current count: ${parent.count} args=${args}, context=${context}`,
   },
   Subscription: {
     counter: {
